@@ -1,20 +1,26 @@
+html, body {
+    height: auto; /* Reset the height to auto */
+}
 .index{
-    text-align: center;
+    background-color: #f8f9fa;
 }
 a{
     color: white;
     text-decoration: none;
     font-size: 25px;
+    
 
 }
 .form-group{
     margin-top: 10px;
 }
-.main {
+.main,.about{
     border: 2px solid gray;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 40px;
-    margin-top: 100px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .container .container{
@@ -27,4 +33,55 @@ a{
 button{
     margin: 10px;
     width: 140px;
+}
+
+.about{
+    text-align: left;
+    margin-bottom: 40px;
+}
+/* Update button color */
+.btn-primary {
+    background-color: #007bff; /* Blue for primary buttons */
+    border-color: #007bff;
+}
+/* Navbar background and link color */
+.navbar {
+    background-color: #343a40; /* Dark Gray */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa; /* Light Gray for navbar links */
+}
+
+.collapse{
+    text-align: right;
+    margin-right: 20px;
+}
+/* Footer background and text color */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark Gray */
+    color: #f8f9fa; /* Light Gray for text in footer */
+    padding: 20px 0;
+}
+
+/* Styling for form input and button in footer */
+.footer form input[type="email"] {
+    background-color: #fff; /* White for form input */
+    color: #495057; /* Dark Gray for text in form input */
+    height: min-content;
+}
+
+.footer form .btn-primary {
+    background-color: #ffc107; /* Yellow for subscribe button */
+    border-color: #ffc107;
+    margin-top: 0;
+    
+    
+}
+
+.footer li a{
+    font-size: 16px;
 }

@@ -10,18 +10,90 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="index">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Quiz Room</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Create Exam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tests</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/singin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container main">
         <h1>Welcome to Quiz Room</h1>
         <div class="t-or-s container">
             <h2>Are you here as a teacher or a student?</h2>
-        <div class="buttons">
-            <button class="btn btn-primary"><a href="#">Teacher</a></button>
-        <button class="btn btn-success"><a href="#">Student</a></button>
+            <div class="buttons">
+                <button class="btn btn-primary"><a href="#">Teacher</a></button>
+                <button class="btn btn-success"><a href="#">Student</a></button>
+            </div>
         </div>
     </div>
+    <div class="container about">
+        <h2>About Quiz Room</h2>
+        <p>Quiz Room is an online platform designed to facilitate the creation and administration of exams and tests. Whether you're a teacher looking to create assessments for your students or a student preparing for exams, Quiz Room provides the tools you need for effective learning and evaluation.</p>
+    
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Exam Creation:</strong> Teachers can easily create custom exams tailored to their curriculum and learning objectives.</li>
+            <li><strong>Test Administration:</strong> Students can take exams securely online, with features such as time limits and randomized questions.</li>
+            <li><strong>Instant Feedback:</strong> Immediate grading and feedback help students understand their strengths and areas for improvement.</li>
+            <li><strong>Progress Tracking:</strong> Both teachers and students can track progress over time, monitoring performance and identifying trends.</li>
+            <li><strong>User-Friendly Interface:</strong> Intuitive design makes it easy for both teachers and students to navigate the platform and access the information they need.</li>
+        </ul>
+    
+        <h2>Get Started</h2>
+        <p>Ready to begin? Sign up now to start creating exams or taking tests. Whether you're an educator or a learner, Quiz Room is here to support your educational journey.</p>
+        <button class="btn btn-primary">Sign Up</button>
     </div>
-    
-    
-    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Exams</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Information</h4>
+                    <p>Email: </p>
+                    <p>Phone: </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
